@@ -1,0 +1,13 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: microservice-poll
+  datasource:
+    url: jdbc:postgresql://localhost:5432/quiz
+    username: sonar
+    password: sonar
+  jpa:
+    show-sql: true
+    #hibernate:
+    #  ddl-auto: create-drop
